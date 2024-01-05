@@ -1,0 +1,168 @@
+header {
+    padding: 25px 10px 10px 10px;
+}
+
+.content {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.content .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .navbar .logo {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.content .navbar .logo img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.content .navbar h3 {
+    padding-left: 15px;
+    color: #4b2903;
+    font-style: italic;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links li {
+    padding: 0 5px;
+    list-style-type: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #816d63;
+    font-weight: 800;
+}
+
+.navbar-links a:hover {
+    color:#4b2903;
+    background-color: #dbc1ac;
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: 20px;    
+    transition: 0.3s;
+}
+
+.navbar .reservationBtn:hover {
+    color: #fff;
+    background-color: #801c1c;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.banner {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.banner .text {
+    width: 100%;
+}
+
+.banner .text h1 {      
+    font-style: italic;
+    font-size: 75px;
+    color: #4b2903;
+}
+
+.banner .text span {
+    font-style: normal;  
+    font-size: 60px;
+    color: #816d63;
+}
+
+.banner button {
+    color: #fff;
+    background-color: #801c1c;
+    border: none;
+}
+
+
+.banner button:hover {    
+    color: #4b2903;
+    background-color: #dbc1ac;
+    transition: 0.5s;
+}
+
+.banner .image {
+    display: flex;
+    padding: 20px;    
+    width: 1200px;
+}
+
+.banner .image img {
+    width: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .logo {
+        padding: 0;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .navbar .navbar-links {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar .links {
+        font-size: 30px;
+    }
+    
+    .navbar-links a:hover {
+        color:#4b2903;
+        background-color: #dbc1ac;
+        padding: 10px 35px;
+        border-radius: 30px;
+        font-size: 32px;    
+        transition: 0.3s;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .banner .text h1 {
+        font-size: 60px;
+    }
+
+    .banner .image { 
+        width: 100%;
+    }
+}

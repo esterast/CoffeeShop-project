@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ece0d1;
+}
+
+
+button {
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 35px;
+    color: #4b2903;
+}
+
+h5 {
+    font-size: 18px;
+    color: #4b2903;
+}
+
+p {
+    font-size: 20px;
+    color: #816d63;
+}
+
