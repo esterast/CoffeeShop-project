@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="flavors.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="reviews.css">
-    <link rel="stylesheet" href="newsletter.css">
     <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
     <!-- header start -->
-    <header>
+    <header id="home">
         <div class="content">
             <!-- navbar start -->
             <div class="navbar">
@@ -27,18 +26,23 @@
                 </div>
                 <div class="links">
                     <ul class="navbar-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li class="navbar-link"><a href="#home">Home</a></li>
+                        <li class="navbar-link"><a href="#aboutUs">About Us</a></li>
+                        <li class="navbar-link"><a href="#flavors">Menu</a></li>
+                        <li class="navbar-link"><a href="#reviews">Reviews</a></li>
+                        <li class="navbar-link"><a href="#contacts">Contacts</a></li>
                     </ul>
                 </div>
 
-                <div class="reservationBtn">
-                    <button type="button">Place a Order!</button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
 
+                <div class="reservationBtn">
+                    <button type="button">Place an Order!</button>
+                </div>
             </div>
             <!-- navbar end -->
 
@@ -48,7 +52,7 @@
                     <h1>Fresh Coffee <br><span>for a</span> Fresh Start</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Illo voluptatibus voluptatum tempore
                         dolor quisquam debitis <br>qui sed quaerat nisi quia suscipit.</p>
-                    <button type="bannerBtn">Place a Order!</button>
+                    <button type="bannerBtn">Place an Order!</button>
                 </div>
                 <div class="image">
                     <img src="./img/coffee_banner.png" alt="image">
@@ -61,7 +65,7 @@
 
     <!-- main start  -->
     <main>
-        <section class="flavors">
+        <section class="flavors" id="flavors">
             <!-- flavors start  -->
             <div class="content">
                 <div class="text">
@@ -96,7 +100,7 @@
         <div class="parallax"></div>
 
         <!-- about start  -->
-        <section class="about">
+        <section class="about" id="aboutUs">
             <div class="block1">
                 <div class="image">
                     <img src="./img/about1.jpg" alt="coffee-shop">
@@ -135,7 +139,7 @@
         <!-- about end  -->
 
         <!-- reviews end  -->
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <div class="content">
                 <div class="block1">
                     <div class="text">
@@ -166,7 +170,7 @@
     </main>
 
         <!-- footer start  -->
-        <section class="footer">
+        <section class="footer" id="contacts">
             <div class="content">
                 <div class="block1">
                     <h3>Useful Links</h3>
@@ -188,7 +192,7 @@
                     </p>
                     <div class="socialLinks">
                         <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
-                        <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+                         <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
                         <a href="#"><img src="./img/twitter.png" alt="twitter"></a>
                     </div>
                 </div>
@@ -222,6 +226,9 @@
 
    
     <!-- main end  -->
+
+    <!-- scripts js  -->
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
